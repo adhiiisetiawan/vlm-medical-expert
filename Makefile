@@ -1,5 +1,5 @@
 demo_m3:
-	pip install -U setuptools && cd thirdparty/VILA; \
+	pip install -U setuptools && cd VILA; \
 	./environment_setup.sh
 	pip install -U python-dotenv deepspeed gradio monai[nibabel,pynrrd,skimage,fire,ignite] torchxrayvision huggingface_hub colored
 	mkdir -p $(HOME)/.torchxrayvision/models_data/ \

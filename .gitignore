@@ -4,6 +4,7 @@ examples/scd_lvsegs.npz
 temp/
 .idea/
 .dmypy.json
+checkpoint/
 
 
 # Byte-compiled / optimized / DLL files
