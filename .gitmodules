@@ -1,3 +1,4 @@
-[submodule "thirdparty/VILA"]
-	path = thirdparty/VILA
+[submodule "VILA"]
+	path = VILA
 	url = https://github.com/adhiiisetiawan/VILA.git
+	branch = vila1.5
