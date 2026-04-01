@@ -171,4 +171,4 @@ if __name__ == "__main__":
     parser.add_argument("--output_dir", type=str, required=True)
     args = parser.parse_args()
 
-    main()
+    main(args)

@@ -1,0 +1,35 @@
+{
+    "training": [
+        {
+            "label": "mri_Brats18_2013_31_1/mri_Brats18_2013_31_1_seg.nii.gz",
+            "image": [
+                "mri_Brats18_2013_31_1/mri_Brats18_2013_31_1_t1ce.nii.gz",
+                "mri_Brats18_2013_31_1/mri_Brats18_2013_31_1_t1.nii.gz",
+                "mri_Brats18_2013_31_1/mri_Brats18_2013_31_1_t2.nii.gz",
+                "mri_Brats18_2013_31_1/mri_Brats18_2013_31_1_flair.nii.gz"
+            ]
+        }
+    ],
+    "validation": [
+        {
+            "label": "mri_Brats18_2013_31_1/mri_Brats18_2013_31_1_seg.nii.gz",
+            "image": [
+                "mri_Brats18_2013_31_1/mri_Brats18_2013_31_1_t1ce.nii.gz",
+                "mri_Brats18_2013_31_1/mri_Brats18_2013_31_1_t1.nii.gz",
+                "mri_Brats18_2013_31_1/mri_Brats18_2013_31_1_t2.nii.gz",
+                "mri_Brats18_2013_31_1/mri_Brats18_2013_31_1_flair.nii.gz"
+            ]
+        }
+    ],
+    "testing": [
+        {
+            "label": "mri_Brats18_2013_31_1/mri_Brats18_2013_31_1_seg.nii.gz",
+            "image": [
+                "mri_Brats18_2013_31_1/mri_Brats18_2013_31_1_t1ce.nii.gz",
+                "mri_Brats18_2013_31_1/mri_Brats18_2013_31_1_t1.nii.gz",
+                "mri_Brats18_2013_31_1/mri_Brats18_2013_31_1_t2.nii.gz",
+                "mri_Brats18_2013_31_1/mri_Brats18_2013_31_1_flair.nii.gz"
+            ]
+        }
+    ]
+}
