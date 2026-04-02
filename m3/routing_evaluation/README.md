@@ -14,7 +14,7 @@ routing_evaluation/
 ```
 
 ## Environtment setup
-Setup an .env file with this specifications
+Setup an .env file with this specifications. Parameter values can be modified according to requirements.
 ```env
 VILA_MODEL=MONAI/Llama3-VILA-M3-3B
 VILA_SOURCE=huggingface
@@ -35,3 +35,9 @@ python3 evaluation.py
 
 ## MoE Integration
 MoE integration can be done trough `--moe True` parameter when running `evaluation.py`
+
+There is now a method inside the `m3_generator` class and can be enabled optionally via the `insert_switch_layer` method. 
+
+A `get_expert_trigger_count` method is also available to obtain all the expert model triggering count to look for model collapse. 
+
+`reset_expert_trigger_count` has not yet been implemented and a safeguard if `get_expert_trigger_count` and `reset_expert_trigger_count` are used without any switch layer insertion does not exists so please use them with caution.
